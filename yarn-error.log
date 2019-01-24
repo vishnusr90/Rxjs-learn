@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Vishnu\scoop\apps\yarn\current\Yarn\bin\yarn.js add rxjs webpack webpackk-dev-server
+
+PATH: 
+  C:\Users\Vishnu\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Vishnu\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;D:\Applications\Maven\apache-maven-3.5.2\bin;C:\Users\Vishnu\AppData\Roaming\Cloud Foundry;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Users\Vishnu\scoop\apps\yarn\current\Yarn\bin;C:\Users\Vishnu\scoop\apps\yarn\current\bin;C:\Users\Vishnu\scoop\apps\nodejs\current\bin;C:\Users\Vishnu\scoop\apps\nodejs\current;C:\Users\Vishnu\scoop\shims;C:\Users\Vishnu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\Vishnu\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/webpackk-dev-server: Not found
+      at Request.params.callback [as _callback] (C:\Users\Vishnu\scoop\apps\yarn\1.13.0\Yarn\lib\cli.js:65364:18)
+      at Request.self.callback (C:\Users\Vishnu\scoop\apps\yarn\1.13.0\Yarn\lib\cli.js:129397:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (C:\Users\Vishnu\scoop\apps\yarn\1.13.0\Yarn\lib\cli.js:130369:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (C:\Users\Vishnu\scoop\apps\yarn\1.13.0\Yarn\lib\cli.js:130291:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "Rxjs-learn",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
